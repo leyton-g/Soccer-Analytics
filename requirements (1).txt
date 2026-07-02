@@ -1,0 +1,7 @@
+streamlit>=1.35
+pandas>=2.0
+plotly>=5.20
+
+# Only needed if you run fetch_real_data.py locally to pull real FBref stats.
+# Not required for app.py itself — leave commented out for Streamlit Cloud deploys.
+# soccerdata>=1.5
